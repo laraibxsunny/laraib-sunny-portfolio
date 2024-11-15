@@ -1,7 +1,8 @@
 import styles from "./ProjectStyles.module.css";
-import ship from "../../assets/Asteroid Shooter.png";
 import ProjectCard from "../../common/ProjectCard";
-import comingsoon from "../../assets/coming soon.png";
+import webpageIcon from "../../assets/webpageIcon.svg";
+import ship from "../../assets/ship-resize.png";
+import comingsoon from "../../assets/coming soon 2.png";
 
 function Projects() {
   return (
@@ -12,9 +13,19 @@ function Projects() {
           src={ship}
           link={"https://github.com/laraibxsunny/Asteroid-Shooter"}
           h3="Asteroid Shooter"
-          p="Python Retro-VideoGame Replica"
+          p="Python with Pygame Developed Retro-VideoGame Replica"
         />
-        <ProjectCard src={comingsoon} link={""} h3="More Coming Soon" p="" />
+        <ProjectCard
+          src={webpageIcon}
+          link={"https://github.com/laraibxsunny/laraib-sunny-portfolio"}
+          h3="Webpage Portfolio"
+          p="JavaScript with React Assembled Single-Page Portfolio"
+        />
+        <ProjectCard
+          src={comingsoon}
+          h3="...More Coming Soon..."
+          p="A C# Game Project?? Maybe, stay tuned!"
+        />
       </div>
     </section>
   );

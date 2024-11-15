@@ -6,29 +6,23 @@ function Skills() {
   return (
     <section id="skills" className={styles.container}>
       <h1 className="sectionTitle">Skills</h1>
+      <h3>Work-Based</h3>
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="HTML" />
         <SkillList src={checkMarkIcon} skill="CSS" />
-        <SkillList src={checkMarkIcon} skill="C++" />
+        <SkillList src={checkMarkIcon} skill="Jest" />
         <SkillList src={checkMarkIcon} skill="JavaScipt" />
         <SkillList src={checkMarkIcon} skill="Node" />
         <SkillList src={checkMarkIcon} skill="React" />
       </div>
       <hr />
+      <h3>Self-Taught</h3>
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="Gaming(valorant radiant)" />
-        <SkillList
-          src={checkMarkIcon}
-          skill="Fighting(got abused by the Hamza)"
-        />
-        <SkillList
-          src={checkMarkIcon}
-          skill="Happy Relationship(she forced me to write this)"
-        />
-        <SkillList
-          src={checkMarkIcon}
-          skill="Bowling(came 3rd in a tournament once with the highest hcp)"
-        />
+        <SkillList src={checkMarkIcon} skill="Python" />
+        <SkillList src={checkMarkIcon} skill="C++" />
+        <SkillList src={checkMarkIcon} skill="C#" />
+        <SkillList src={checkMarkIcon} skill="Unity" />
+        <SkillList src={checkMarkIcon} skill="Unreal Engine" />
       </div>
       <hr />
     </section>

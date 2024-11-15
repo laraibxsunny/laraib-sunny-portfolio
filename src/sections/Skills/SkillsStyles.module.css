@@ -41,6 +41,10 @@ hr {
     }
   }
 
+  .container {
+    margin: 20px;
+  }
+
   hr {
     width: 300px;
   }

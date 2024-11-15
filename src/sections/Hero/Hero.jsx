@@ -1,5 +1,4 @@
 import styles from "./HeroStyles.module.css";
-import laraibIMG from "../../assets/Professionalish photo.png";
 import sunIcon from "../../assets/sun.svg";
 import moonIcon from "../../assets/moon.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
@@ -38,7 +37,10 @@ function Hero() {
           <br />
           Sunny
         </h1>
-        <h2>Software Engineer</h2>
+        <h2>
+          <h3>(Apprentice)</h3>
+          Software Engineer
+        </h2>
         <span>
           <a
             href="https://linkedin.com/in/laraib-sunny-aa82b42a5/"
@@ -52,10 +54,12 @@ function Hero() {
         </span>
         <p className={styles.description}>
           An aspiring software developer with a curious mind, fuelled by a
-          genuine passion for problem solving and analysis.
+          genuine passion for problem solving, analysis and creativity. I am
+          committed and strive to learn whenever given the opportunity, even in
+          the absence of one.
         </p>
         <a href={CV} download>
-          <button className="hover">RESUME / CV</button>
+          <button className="hover">CV</button>
         </a>
       </div>
     </section>

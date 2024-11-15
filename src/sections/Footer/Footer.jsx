@@ -7,6 +7,12 @@ function Footer() {
         &copy; 2024 Laraib Sunny.
         <br />
         All rights reserved.
+        <br />
+        Some Icons by
+        <a href="https://icons8.com/" target="_blank">
+          Icons8
+        </a>
+        .
       </p>
     </section>
   );
