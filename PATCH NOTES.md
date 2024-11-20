@@ -7,6 +7,8 @@ made, HOW much change made and WHY these changes were made.
 
 Version 1.00 - First Deployment - 14/11/2024
 
+https://673655ff65254e524358f155--laraibsunny.netlify.app/
+
 ---------------------------------------------------------------------------
 
 Version 1.01 - UI/UX changes - 15/11/2024
@@ -19,7 +21,7 @@ colorModeIcon / night and dark mode icons, as well as the skills
 in my skill list were too close to the border of many phone screens.
 Which I only discovered upon deploying the website ;(.
 
-- 20px added to .container of SkillsStyles 
+- margin: 20px added to .container of SkillsStyles 
 -- @media (width >= 800px) from 0 --
 - 20px added to .container of HeroStyles 
 -- @media (width >= 800px) from 0 --

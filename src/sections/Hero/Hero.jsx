@@ -38,7 +38,9 @@ function Hero() {
           Sunny
         </h1>
         <h2>
-          <h3>(Apprentice)</h3>
+          (Apprentice)
+        </h2>
+        <h2>
           Software Engineer
         </h2>
         <span>

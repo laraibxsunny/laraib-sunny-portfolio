@@ -8,9 +8,9 @@ function Footer() {
         <br />
         All rights reserved.
         <br />
-        Some Icons by
+        Some Icons by &nbsp;
         <a href="https://icons8.com/" target="_blank">
-          Icons8
+        Icons8
         </a>
         .
       </p>
