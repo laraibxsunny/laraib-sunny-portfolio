@@ -61,7 +61,7 @@ function Hero() {
           the absence of one.
         </p>
         <a href={CV} download>
-          <button className="hover"><h3 className={styles.buttonText}>CV</h3></button>
+          <button className="hover">CV</button>
         </a>
       </div>
     </section>

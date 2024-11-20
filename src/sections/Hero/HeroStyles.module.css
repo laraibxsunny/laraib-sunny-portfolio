@@ -41,6 +41,7 @@
     font-weight: bold;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+    padding: 0;
   }
 
   button:hover {
@@ -78,10 +79,8 @@
   gap: 5px;
 }
 
-.buttonText {
-  color: var(--btn-text-color);
-  margin: 0;
-  font-size: 24px;
+@media (width >= 300px) {
+
 }
 
 @media (width >= 800px) {
