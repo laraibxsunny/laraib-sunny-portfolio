@@ -49,7 +49,6 @@ input[type="submit"] {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
   margin: auto;
-  text-align: center;
 }
 
 input[type="submit"]:hover {
