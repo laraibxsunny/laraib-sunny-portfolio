@@ -41,7 +41,7 @@ input[type="submit"] {
   background-color: var(--btn-color);
   color: var(--btn-text-color);
   border: none;
-  border-radius: 20px;
+  border-radius: 15px;
   width: 90px;
   height: 50px;
   font-size: 20px;
@@ -49,6 +49,7 @@ input[type="submit"] {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
   margin: auto;
+  text-align: center;
 }
 
 input[type="submit"]:hover {
